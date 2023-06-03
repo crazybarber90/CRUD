@@ -48,6 +48,8 @@ const Create = () => {
         <select value={author} onChange={(e) => setAuthor(e.target.value)}>
           <option value="Nikola">Nikola</option>
           <option value="Nenad">Nenad</option>
+          <option value="Marko">Marko</option>
+          <option value="Ivan">Ivan</option>
         </select>
 
         {/* CHANGING BUTTON ON PENDING  */}

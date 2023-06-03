@@ -1,16 +1,3 @@
 {
-  "blogs": [
-    {
-      "title": "newBlog",
-      "body": "THis is new created blog by Create component",
-      "author": "Nikola",
-      "id": 5
-    },
-    {
-      "title": "Every NEW BLOG",
-      "body": "every new blog will be automaticly added to db.json file",
-      "author": "Nikola",
-      "id": 6
-    }
-  ]
+  "blogs": []
 }

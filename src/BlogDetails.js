@@ -17,6 +17,9 @@ const BlogDetails = () => {
       history.push("/");
     });
   };
+  const handleBack = () => {
+    history.push("/");
+  };
 
   return (
     <div className="blog-details">
@@ -25,10 +28,13 @@ const BlogDetails = () => {
       {blog && (
         <article>
           <h2>{blog.title}</h2>
-          <p>Written by {blog.author}</p>
+          <p>Written by :{blog.author}</p>
           <div>{blog.body}</div>
 
-          <button onClick={handleClick}>Delete</button>
+          <button style={{ marginRight: "15px" }} onClick={handleClick}>
+            Delete
+          </button>
+          <button onClick={handleBack}>Back to Blogs</button>
         </article>
       )}
     </div>

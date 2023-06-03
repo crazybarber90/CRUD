@@ -13,6 +13,18 @@ const useFetch = (url) => {
   //  setTimeout used to make fetch more realistic with 1sec delay while getting the data.
 
   // ABORRCONTROLLER ADDED FOR STOPING THE FETCH WHILE SWICHING BETWEEN PAGES BEFORE LOAD
+
+  //                    IMPORTANT !
+
+  // READ THIS ----------------------------------------------------------------------------
+
+  // TO BE ABLE TO FETCH DATA FROM db.json - u should folow next steps
+  //  start server and enter in terminal this
+  // npx json-server --watch data/db.json --port 8000 --headers "Access-Control-Allow-Origin, *"
+  // reload and enjoy in game :)
+
+  // READ THIS ----------------------------------------------------------------------------
+
   useEffect(() => {
     const abortCont = new AbortController();
 
